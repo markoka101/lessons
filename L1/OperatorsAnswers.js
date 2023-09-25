@@ -25,7 +25,7 @@ Basic logic operators
 This function should return true if even and false if odd
 */
 function isEven(x) {
-
+    return (x % 2 === 0);
 }
 
 /*
@@ -34,7 +34,16 @@ The operators will be addition '+' , subtraction '-' , division '/' , and multip
 From there you will return the result of the two numbers with the selected operator
 */
 function calculate(x,y,operator) {
-
+    switch(operator) {
+        case '+':
+            return (x+y);
+        case '-':
+            return (x-y);
+        case '/':
+            return (x/y);
+        case '*':
+            return (x*y);
+    }
 }
 
 /*
@@ -42,7 +51,12 @@ This function will return the summation of numbers from 1 to x
 Use a for loop to get sum
 */
 function summation(x) {
+    let sum = 0;
 
+    for(let i = 1; i <= x; i++) {
+        sum += i;
+    }
+    return sum;
 }
 
 /*
@@ -56,11 +70,18 @@ function fizzbuzz(n) {
     //push the labels into this arraay
     let result = [];
 
+    //create the for loop
+    for (let i = 1; i < n; i++) {
+        if (i % 15 === 0) {
+            result.push('fizzbuzz');
+        } else if (i % 5 === 0) {
+            result.push('buzz');
+        } else if (i % 3 === 0) {
+            result.push('fizz')
+        } else {
+            result.push(i);
+        }
+    }
+
     return result;
 }
-
-//write npm test in the terminal to run tests
-
-module.exports = {isEven,calculate,summation, fizzbuzz}
-
-
