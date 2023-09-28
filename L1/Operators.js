@@ -25,7 +25,6 @@ Basic logic operators
 This function should return true if even and false if odd
 */
 function isEven(x) {
-
 }
 
 /*
