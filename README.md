@@ -1,4 +1,4 @@
-# Javascript lesson plan
+# Javascript lessons
 
 ## About
 These are the demos and assignments
@@ -7,4 +7,4 @@ These are the demos and assignments
 - [@markoka101](https://github.com/markoka101)
 
 ## Lesson Notes
-https://docs.google.com/document/d/1VcVkqN0pvyQLPuLebR0_V7qZhKwa4xCvZ8kZOZK2rgA/edit?usp=sharing
+- https://docs.google.com/document/d/1VcVkqN0pvyQLPuLebR0_V7qZhKwa4xCvZ8kZOZK2rgA/edit?usp=sharing
